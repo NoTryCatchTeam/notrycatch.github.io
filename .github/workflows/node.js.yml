@@ -27,5 +27,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: ng build --output-path docs
-    - run: git push -b gh-pages
+    - run: npm run build
+    - name: Deploy 
+      uses: JamesIves/github-pages-deploy-action@releases/v3                             
+      with:  
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages  
+        FOLDER: dist
