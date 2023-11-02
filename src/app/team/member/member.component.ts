@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-member',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./member.component.scss']
 })
 export class MemberComponent {
-
+  @Input() avatarName = '';
+  @Input() Name = '';
+  @Input() Position = '';
 }

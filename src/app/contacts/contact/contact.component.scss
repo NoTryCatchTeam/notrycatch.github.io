@@ -1,4 +1,11 @@
+@import "/src/variables.scss";
+
 a,
 .linkname  {
-    font-size: small;
+    font-size: 12px;
+}
+
+a {
+    color: $text-color-secondary;
+    text-decoration: none;
 }

@@ -1,1 +1,18 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('/assets/font/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('/assets/font/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('/assets/font/Roboto-Thin.ttf');
+}
+
+body {
+    font-family: 'Roboto-Regular';
+}
