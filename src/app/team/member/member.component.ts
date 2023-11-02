@@ -9,4 +9,7 @@ export class MemberComponent {
   @Input() avatarName = '';
   @Input() Name = '';
   @Input() Position = '';
+  @Input() Telegram = '';
+  @Input() Email = '';
+  @Input() Github = '';
 }

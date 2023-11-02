@@ -2,4 +2,9 @@
     <img src="../../../assets/{{avatarName}}.png" class="avatar"/> 
     <div class="name text-uppercase">{{Name}}</div>
     <div class="position text-uppercase">{{Position}}</div>
+    <div class="contacts d-flex flex-row gap-1 justify-content-evenly">
+        <a *ngIf="Telegram.length!=0" href="https://t.me/{{Telegram}}"><img height="32px" src="../../../assets/telegram.svg"></a>
+        <a *ngIf="Email.length!=0" href="mailto://{{Email}}"><img height="32px" src="../../../assets/envelope.svg"></a>
+        <a *ngIf="Github.length!=0" href="https://github.com/{{Github}}"><img height="32px" src="../../../assets/github.svg"></a>
+    </div>
 </div>
