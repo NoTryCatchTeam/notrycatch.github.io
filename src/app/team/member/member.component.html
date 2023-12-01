@@ -1,11 +1,11 @@
 <div class="d-flex flex-column align-items-center">
-    <img src="../../../assets/{{avatarName}}.png" class="avatar" aria-label="avatar"/> 
-    <div class="name text-uppercase">{{Name}}</div>
-    <div class="position text-uppercase">{{Position}}</div>
+    <img src="../../../assets/photos/{{avatarName}}.jpg" class="avatar" aria-label="avatar"/> 
+    <div class="name">{{Name}}</div>
+    <div class="position">{{Position}}</div>
     <div class="contacts d-flex flex-row gap-2 justify-content-evenly">
-        <a *ngIf="Telegram.length!=0" aria-label="Telegram" href="https://t.me/{{Telegram}}"><img height="32px" width="32px" src="../../../assets/telegram.svg" aria-label="Telegram"></a>
-        <a *ngIf="Email.length!=0" aria-label="Email" href="mailto://{{Email}}"><img height="32px" width="32px" src="../../../assets/envelope.svg" aria-label="Email"></a>
-        <a *ngIf="GitHub.length!=0" aria-label="GitHub" href="https://github.com/{{GitHub}}"><img height="32px" width="32px" src="../../../assets/github.svg" aria-label="GitHub"></a>
-        <a *ngIf="LinkedIn.length!=0" aria-label="LinkedIn" href="https://www.linkedin.com/in/{{LinkedIn}}/"><img height="32px" width="32px" src="../../../assets/linkedin.svg" aria-label="LinkedIn"></a>
+        <a *ngIf="Telegram.length!=0" aria-label="Telegram" target="_blank" rel="noopener noreferrer" href="https://t.me/{{Telegram}}"><img height="32px" width="32px" src="../../../assets/icons/telegram.svg" aria-label="Telegram"></a>
+        <a *ngIf="Email.length!=0" aria-label="Email" target="_blank" rel="noopener noreferrer" href="mailto://{{Email}}"><img height="32px" width="32px" src="../../../assets/icons/envelope.svg" aria-label="Email"></a>
+        <a *ngIf="GitHub.length!=0" aria-label="GitHub" target="_blank" rel="noopener noreferrer" href="https://github.com/{{GitHub}}"><img height="32px" width="32px" src="../../../assets/icons/github.svg" aria-label="GitHub"></a>
+        <a *ngIf="LinkedIn.length!=0" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/{{LinkedIn}}/"><img height="32px" width="32px" src="../../../assets/icons/linkedin.svg" aria-label="LinkedIn"></a>
     </div>
 </div>

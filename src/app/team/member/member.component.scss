@@ -1,3 +1,4 @@
+@import "/src/variables.scss";
 .avatar {
   vertical-align: middle;
   width: 200px;
@@ -6,10 +7,16 @@
 }
 
 .name {
-  font-family: 'Roboto-Bold';
-  letter-spacing: 1px;
+  font-family: 'Roboto-Regular';
+  margin-top: 8px;
+}
+
+.position {
+  font-family: 'Roboto-Regular';
+  color: $text-color-secondary;
+  margin-top: 8px;
 }
 
 .contacts {
-  margin-top: 8px;
+  margin-top: 12px;
 }
