@@ -1,0 +1,16 @@
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+p,
+h3 {
+    display: block;
+    margin-block-start: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-top: 8px;
+}
+

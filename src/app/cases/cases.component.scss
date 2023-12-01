@@ -10,32 +10,6 @@
     width: 90%;
 }
 
-.zigzag-timeline__item {
-    position: relative;
-    border-bottom: 1px solid;
-    width: 100%;
-    padding-left: 48px;
-    padding-right: 48px;
-}
-
-p,
-h3 {
-    display: block;
-    margin-block-start: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-top: 8px;
-}
-
-.zigzag-timeline__milestone {
-    position: absolute;
-    top: 20%;
-    border-radius: 50%;
-    background: #D9D9D9;
-    padding: 20px;
-    z-index: -1;
-}
-
 /* Styles for even items */
 .zigzag-timeline__item:nth-child(2n) {
     border-left: 1px solid;
@@ -54,4 +28,26 @@ h3 {
 .zigzag-timeline__item:nth-child(2n + 1) .zigzag-timeline__milestone {
     right: 0;
     transform: translate(50%, -50%);
+}
+
+.zigzag-timeline__item {
+    position: relative;
+    border-bottom: 1px solid;
+    width: 100%;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.zigzag-timeline__milestone {
+    position: absolute;
+    top: 20%;
+    border-radius: 50%;
+    background: #D9D9D9;
+    padding: 20px;
+    z-index: -1;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 32px;
 }
