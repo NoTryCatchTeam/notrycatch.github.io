@@ -11,6 +11,6 @@ export class MemberComponent {
   @Input() Position = '';
   @Input() Telegram = '';
   @Input() Email = '';
-  @Input() Github = '';
+  @Input() GitHub = '';
   @Input() LinkedIn = '';
 }

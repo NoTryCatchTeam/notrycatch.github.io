@@ -8,4 +8,7 @@ import { Component, Input } from '@angular/core';
 export class CaseComponent {
   @Input() Title = '';
   @Input() Description = '';
+  @Input() GitHub = '';
+  @Input() Drive = '';
+  @Input() YouTube = '';
 }

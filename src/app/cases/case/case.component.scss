@@ -1,10 +1,6 @@
 
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
+
 p,
 h3 {
     display: block;
@@ -12,5 +8,9 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-top: 8px;
+}
+
+.case_icons{
+    padding-bottom: 16px;
 }
 
