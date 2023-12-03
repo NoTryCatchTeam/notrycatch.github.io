@@ -20,9 +20,14 @@
 
 body {
     font-family: 'Roboto-Regular';
-
 }
 
-body, html {
+body,
+html {
     height: 100%;
-  }
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 32px;
+}
