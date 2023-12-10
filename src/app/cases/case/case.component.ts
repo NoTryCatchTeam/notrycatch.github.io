@@ -12,4 +12,5 @@ export class CaseComponent {
   @Input() Drive = '';
   @Input() YouTube = '';
   @Input() Award = '';
+  @Input() Date = '';
 }

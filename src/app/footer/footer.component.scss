@@ -1,8 +1,11 @@
+@import '../../variables.scss';
+
 .nav-link {
     font-size: small;
 }
 .copyright{
     margin-bottom: 8px;
+    color: $text-color-secondary-light;
 }
 
 .copyright,

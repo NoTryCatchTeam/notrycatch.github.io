@@ -1,3 +1,4 @@
+@import '../../../variables.scss';
 p,
 h3 {
     display: block;
@@ -9,4 +10,8 @@ h3 {
 
 .case_icons {
     padding-bottom: 16px;
+}
+
+h6 {
+    color: $text-color-secondary-light;
 }
