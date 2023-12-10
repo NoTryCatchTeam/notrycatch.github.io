@@ -11,4 +11,5 @@ export class CaseComponent {
   @Input() GitHub = '';
   @Input() Drive = '';
   @Input() YouTube = '';
+  @Input() Award = '';
 }

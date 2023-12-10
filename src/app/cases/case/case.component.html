@@ -1,12 +1,18 @@
 <div>
-    <h3>{{Title}}</h3>
-    <p>{{Description}}</p>
-    <div class="case_icons d-flex flex-row gap-2 justify-content-start">
-        <a *ngIf="GitHub.length!=0" aria-label="GitHub" target="_blank" rel="noopener noreferrer" href="https://github.com/NoTryCatchTeam/{{GitHub}}"><img
-                height="32px" width="32px" src="../../../assets/icons/github.svg" aria-label="GitHub"></a>
-        <a *ngIf="Drive.length!=0" aria-label="Drive" target="_blank" rel="noopener noreferrer" href="{{Drive}}"><img height="32px" width="32px"
-                src="../../../assets/icons/hdd.svg" aria-label="Drive"></a>
-        <a *ngIf="YouTube.length!=0" aria-label="YouTube" target="_blank" rel="noopener noreferrer" href="{{YouTube}}"><img height="32px" width="32px"
-                src="../../../assets/icons/youtube.svg" aria-label="YouTube"></a>
-    </div>
+        <h3>{{Title}}</h3>
+        <p>{{Description}}</p>
+        <div class="case_icons d-flex flex-row gap-2 justify-content-start">
+                <a *ngIf="GitHub.length!=0" title="Код" aria-label="GitHub" target="_blank" rel="noopener noreferrer"
+                        href="https://github.com/NoTryCatchTeam/{{GitHub}}"><img height="32px" width="32px"
+                                src="../../../assets/icons/github.svg" aria-label="GitHub"></a>
+                <a *ngIf="Drive.length!=0" title="Дополнительные материалы" aria-label="Drive" target="_blank" rel="noopener noreferrer"
+                        href="{{Drive}}"><img height="32px" width="32px" src="../../../assets/icons/hdd.svg"
+                                aria-label="Drive"></a>
+                <a *ngIf="YouTube.length!=0" title="Защита решения" aria-label="YouTube" target="_blank" rel="noopener noreferrer"
+                        href="{{YouTube}}"><img height="32px" width="32px" src="../../../assets/icons/youtube.svg"
+                                aria-label="YouTube"></a>
+                <a *ngIf="Award.length!=0" title="Награждение" aria-label="Award" target="_blank" rel="noopener noreferrer"
+                        href="{{Award}}"><img height="32px" width="32px" src="../../../assets/icons/award.svg"
+                                aria-label="Award"></a>
+        </div>
 </div>
